@@ -1,15 +1,16 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Stampyard Privacy</title><link rel="stylesheet" href="style.css"></head><body>
 <h1>Privacy policy</h1>
-<p class="updated">Stampyard · last updated 29 October 2026</p>
+<p class="updated">Stampyard · last updated 24 November 2026</p>
 
-<p>Stampyard ("the app", "we") is made by Breathe.io. This policy explains what happens to your data when you use the app. Contact: <a href="mailto:mr.brown.apps@gmail.com">mr.brown.apps@gmail.com</a>.</p>
+<p>Stampyard ("the app", "we") is made by Breathe.io. This policy explains what happens to your data when you use the app on Android (Google Play) or iPhone (App Store). Where the two differ, it says so. Contact: <a href="mailto:mr.brown.apps@gmail.com">mr.brown.apps@gmail.com</a>.</p>
 
 <h2>Short version</h2>
 <ul>
 <li>You don't create an account and we don't ask for your name, email or location.</li>
 <li>Photos you scan are sent to our server and to an AI service to identify the stamp. <strong>We do not keep your photos.</strong></li>
-<li>We don't sell your data. The free version shows ads (Stampyard Pro has none), and you can choose to watch a video for extra scans; where the law requires it, we ask for your consent before any ad is loaded.</li>
+<li>We don't sell your data and we don't track you across other apps or websites.</li>
+<li>On Android, the free version shows ads (Stampyard Pro has none), and you can choose to watch a video for extra scans; where the law requires it, we ask for your consent before any ad is loaded. <strong>The iPhone app shows no ads.</strong></li>
 </ul>
 
 <h2>What we collect and why</h2>
@@ -17,13 +18,13 @@
 <li><strong>Stamp photos.</strong> When you scan, the photo is uploaded to our server, compared with our reference catalogue, and sent to Anthropic's Claude AI service to read and identify the stamp. After the answer is produced, the photo is discarded. We keep only a short fingerprint of the image (a "perceptual hash", which cannot be turned back into the photo) together with the answer, so that scanning the same photo again gives the same answer instantly.</li>
 <li><strong>An anonymous app ID.</strong> The app signs in anonymously with Google Firebase. This gives your installation a random ID. We use it to count your free scans per day, to stop abuse, and to link a scan to your "That's my stamp" confirmation.</li>
 <li><strong>Your confirmations.</strong> When you tap "That's my stamp" or pick a different stamp, we store your choice with the anonymous ID. We use it to improve answers.</li>
-<li><strong>App integrity checks.</strong> Google Play Integrity and Firebase App Check confirm that requests come from the genuine app on a real device. They don't give us personal information.</li>
+<li><strong>App integrity checks.</strong> Firebase App Check, with Google Play Integrity on Android and Apple App Attest on iPhone, confirms that requests come from the genuine app on a real device. They don't give us personal information.</li>
 <li><strong>Technical logs.</strong> Our hosting provider records standard request logs (such as time, IP address and errors). We use them only for security and fixing problems. They are deleted automatically after about 30 days.</li>
-<li><strong>Purchases.</strong> If you buy Stampyard Pro (a subscription or the one-time lifetime purchase), Google Play handles the payment. The app sends us the purchase token that Google Play gives it, and we check it with Google to see which product you bought, whether it is active, renewed, cancelled or refunded, and until when. We store this with your anonymous app ID, so Pro also works after you reinstall the app on the same Google account. We never receive your name, email address or payment details.</li>
-<li><strong>Ads in the free version.</strong> If you don't have Stampyard Pro, the app can show a full-screen ad when you leave an answer to scan again (never before an answer) and one ad card in your album. The ads are served by Google AdMob, which the app starts only after your first scan. AdMob may use your device's advertising ID, IP address and device information to show and measure ads and to prevent fraud. In the EEA, the UK and Switzerland, you're first asked for consent through Google's consent message, and you can change your choice at any time in Settings → Ad privacy choices. Stampyard Pro shows no ads.</li>
+<li><strong>Purchases.</strong> If you buy Stampyard Pro (a subscription or the one-time lifetime purchase), Google Play (Android) or Apple's App Store (iPhone) handles the payment. The app sends us the purchase record the store gives it (a purchase token on Android, a signed transaction on iPhone), and we check it with Google or Apple to see which product you bought, whether it is active, renewed, cancelled or refunded, and until when. Apple and Google also notify our server when a subscription renews, ends or is refunded. We store this with your anonymous app ID, so Pro also works after you reinstall the app on the same Google or Apple account. We never receive your name, email address or payment details.</li>
+<li><strong>Ads in the free version (Android only).</strong> If you don't have Stampyard Pro, the app can show a full-screen ad when you leave an answer to scan again (never before an answer) and one ad card in your album. The ads are served by Google AdMob, which the app starts only after your first scan. AdMob may use your device's advertising ID, IP address and device information to show and measure ads and to prevent fraud. In the EEA, the UK and Switzerland, you're first asked for consent through Google's consent message, and you can change your choice at any time in Settings → Ad privacy choices. Stampyard Pro shows no ads.</li>
 <li><strong>Notifications.</strong> If you allow notifications, the app can tell you when a photo you saved for later has been identified, remind you the day before a free trial ends, and send one reminder after your first visit. They are created on your phone; no notification token is sent to us.</li>
 <li><strong>App settings from our server.</strong> The app downloads its settings (for example how often ads may appear) through Firebase Remote Config, using the Firebase installation ID.</li>
-<li><strong>Optional rewarded video.</strong> When your free scans for the day are used up, you can choose to watch a short video ad for 3 more scans. The ad is served by Google AdMob. Only if you tap the button does the app start AdMob, which may then use your device's advertising ID, IP address and device information to show and measure the ad and to prevent fraud. In the EEA, the UK and Switzerland, you're first asked for consent through Google's consent message, and you can change your choice at any time in Settings → Ad privacy choices. AdMob tells our server that you finished the video (with your anonymous app ID and a transaction number) so the 3 scans can be added. You can reset or delete your advertising ID in your phone's settings.</li>
+<li><strong>Optional rewarded video (Android only).</strong> When your free scans for the day are used up, you can choose to watch a short video ad for 3 more scans. The ad is served by Google AdMob. Only if you tap the button does the app start AdMob, which may then use your device's advertising ID, IP address and device information to show and measure the ad and to prevent fraud. In the EEA, the UK and Switzerland, you're first asked for consent through Google's consent message, and you can change your choice at any time in Settings → Ad privacy choices. AdMob tells our server that you finished the video (with your anonymous app ID and a transaction number) so the 3 scans can be added. You can reset or delete your advertising ID in your phone's settings.</li>
 <li><strong>Usage statistics and crash reports.</strong> The app uses Google Firebase Analytics and Crashlytics. Analytics records events such as "scan started", "match confirmed", "paywall shown" or "trial started", with your anonymous app ID, device model, language and country, never your photos or stamp names. Crashlytics sends a technical report when the app crashes. We use them to fix problems and to understand which features are used.</li>
 </ul>
 
@@ -33,10 +34,11 @@
 <h2>Who processes your data</h2>
 <ul>
 <li><strong>Google Cloud and Firebase</strong> (USA): hosting, the anonymous sign-in, the database, integrity checks, Analytics and Crashlytics.</li>
-<li><strong>Google AdMob</strong> (USA): for the ads in the free version and the optional video ad. AdMob is an independent controller for the data it collects for advertising; see <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from apps that use its services</a>.</li>
+<li><strong>Google AdMob</strong> (USA, Android only): for the ads in the free version and the optional video ad. AdMob is an independent controller for the data it collects for advertising; see <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from apps that use its services</a>.</li>
 <li><strong>Anthropic</strong> (USA): AI identification of the photo. Under Anthropic's commercial terms, data sent through its API is not used to train its models, and it is kept only for a limited period for safety and abuse monitoring.</li>
 <li><strong>eBay</strong>: to show current listing prices we search eBay for the identified stamp. Only the stamp's description is sent, never your photo or ID.</li>
-<li><strong>Google Play</strong>: app distribution and payments, under Google's own privacy policy. We use the Google Play Developer API to check purchases.</li>
+<li><strong>Google Play</strong>: app distribution and payments on Android, under Google's own privacy policy. We use the Google Play Developer API to check purchases.</li>
+<li><strong>Apple</strong>: app distribution and payments on iPhone, under Apple's own privacy policy. We use the App Store Server API to check purchases.</li>
 </ul>
 <p>Your data may be processed in the United States. These providers act on our behalf, under their own security and data-protection commitments.</p>
 
@@ -51,7 +53,7 @@
 </ul>
 
 <h2>Your choices and rights</h2>
-<p>You can stop all data collection by uninstalling the app; this also ends the link to your anonymous ID. You can ask us to see, correct or delete data linked to your installation by emailing <a href="mailto:mr.brown.apps@gmail.com">mr.brown.apps@gmail.com</a>. Depending on where you live (for example the EU, UK, Israel or California), you have legal rights to access, delete and object to processing of your personal data, and to complain to your data-protection authority. We don't sell personal information. If you watch the optional video ad, AdMob may process your advertising ID for that ad as described above; in the EEA, UK and Switzerland only with your consent, which you can withdraw in Settings → Ad privacy choices.</p>
+<p>You can stop all data collection by uninstalling the app; this also ends the link to your anonymous ID. You can ask us to see, correct or delete data linked to your installation by emailing <a href="mailto:mr.brown.apps@gmail.com">mr.brown.apps@gmail.com</a>. Depending on where you live (for example the EU, UK, Israel or California), you have legal rights to access, delete and object to processing of your personal data, and to complain to your data-protection authority. We don't sell personal information. On Android, if you watch the optional video ad, AdMob may process your advertising ID for that ad as described above; in the EEA, UK and Switzerland only with your consent, which you can withdraw in Settings → Ad privacy choices.</p>
 
 <h2>Children</h2>
 <p>Stampyard is not directed at children under 13 and does not knowingly collect their personal information.</p>
